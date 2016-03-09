@@ -4,7 +4,7 @@ namespace Core\Controller;
 
 use Silex\Application;
 
-class defaultController extends CoreController
+class DefaultController extends CoreController
 {
 
     public function indexAction()

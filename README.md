@@ -18,11 +18,11 @@ Then, browse to http://localhost:8888/ or Then, browse to http://localhost:8888/
 Getting started with Silex:
 ---------------------------
 
-* Create a new Controller that extend the CoreController, example `Core\Controller\contactController`
+* Create a new Controller that extend the CoreController, example `Core\Controller\ContactController`
 * Add a new entry in `config/routing.yml`, example :
 
 ```
     contact_us_:
         path : /contact-us
-        defaults: { _controller: 'Core\Controller\contactController::contactAction' }
+        defaults: { _controller: 'Core\Controller\ContactController::contactAction' }
 ```
