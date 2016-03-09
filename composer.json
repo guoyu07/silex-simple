@@ -30,10 +30,5 @@
     "psr-4": {
       "Core\\": "src/Core"
     }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.x-dev"
-    }
   }
 }
