@@ -1,0 +1,7 @@
+home:
+   path : /
+   defaults: { _controller: 'Core\Controller\defaultController::indexAction' }
+
+hello_name:
+   path : /{name}
+   defaults: { _controller: 'Core\Controller\defaultController::helloAction' }
