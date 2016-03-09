@@ -1,6 +1,7 @@
 {
   "name": "sadok-f/silex-simple",
   "description": "A simple project structure to get start with Silex",
+  "type": "project",
   "keywords": [
     "silex",
     "php",
