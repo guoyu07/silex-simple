@@ -20,7 +20,9 @@ Getting started with Silex:
 
 * Create a new Controller that extend the CoreController, example `Core\Controller\contactController`
 * Add a new entry in `config/routing.yml`, example :
-    
+
+```
     contact_us_:
         path : /contact-us
         defaults: { _controller: 'Core\Controller\contactController::contactAction' }
+```
