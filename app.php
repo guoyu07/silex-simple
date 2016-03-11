@@ -5,12 +5,18 @@ use Core\Resolver\ControllerResolver;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\Routing\Loader\YamlFileLoader;
 use Symfony\Component\Routing\RouteCollection;
+use Symfony\Component\Yaml\Yaml;
 
 
 $app = new Silex\Application();
 
 $app->register(new Silex\Provider\UrlGeneratorServiceProvider());
 $app->register(new Silex\Provider\HttpFragmentServiceProvider());
+
+/**
+ * Load parameters files
+ */
+$app['params'] = Yaml::parse(file_get_contents(__DIR__ . '/config/parameters.yml'));
 
 /**
  * Twig
