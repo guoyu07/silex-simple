@@ -20,8 +20,8 @@
   ],
   "require": {
     "php": ">=5.5.9",
-    "silex/silex": "~2.*",
-    "silex/web-profiler": "~1.0",
+    "silex/silex": "~2.0",
+    "silex/web-profiler": "~2.0",
     "symfony/config": "^3.0",
     "symfony/yaml": "^3.0",
     "symfony/debug": "^3.0"
